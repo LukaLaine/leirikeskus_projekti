@@ -1,0 +1,20 @@
+body{
+    background-color:darkgreen;
+
+}
+header{
+    background-color:seagreen;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+}
+div.infobox{
+    background-color: seagreen;
+    text-align: center;
+}
+div.ruokailut{
+    background-color: seagreen;
+    text-align: center;
+}

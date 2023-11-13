@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toiminta.css">
     <title>Toiminta</title>
+    <script>
+        function esiintyjät(){
+            document.getElementById("Esiintyjät").innerHTML= "Kesän 2024 esiintyjät varmistuvat myöhemmin"
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -15,19 +21,22 @@
 
         </nav>
     </section>
-    <div class="toiminta">
-        <h2>Toiminta</h2>
-        <p>Taipaleen leirintäkeskuksessa on monenlaista toimintaa ympäri vuoden</p>
-        <h2>Esiintyjät</h2>
-        <p>Leirintäkeskuksen pääsalissa on useina kesäiltoina erilaisia muusiikki- tai tanssiesityksiä sekä ajoittain myös standup komiikkaa</p>
-        <p>Katso kesän 2024 esiintyjät tästä.</p>
-        <h2>Venevuokraus</h2>
-        <p>Soutuveneitä voi vuokrata päärakennukselta kesäkaudella hintaan 5 € tunti. Maksimiaika vuokraukselle on kuusi tuntia.</p>
-        <h2>Kylpyläosasto</h2>
-        <p>Leirintäkeskuksen kylpyläosasto on auki vuoden ympäri. Kesällä käytössä on myäs ulkoallas. Kylpyosastolla on syvä uima-allas, kaksi poreallasta sekä yksi lasten allas liukumökineen. Saunaosastolla on tavallinen sauna sekä höyrysauna. Hinta aikuiselta 12€, opiskelijalta tai eläkeläiseltä 10€ ja kouluikäiseltä lapselta 6€. Alle kouluikäiset uivat ilmaiseksi.</p>
-        <h2>Opastetut luontoretket</h2>
-        <p>Kesäaikaan joka lauantai on tarjolla opastettu luontoretki, jolle lähdetään kello 13 päärakennyukselta. Reitti ei ole esteetön. Ei vaadi kovaa kuntoa. Hintaan sisältyy pienet eväät. Kesto noin kolme tuntia. Hinta 15€ aikuiselta, 12€ opiskelijalta tai eläkeläiseltä ja 8€ kouluikäiseltä lapselta. Allse kouluikäiset pääsevät mukaan ilmaiseksi</p>
-        <p>Voitte myös ehdottaa toimintaa ottamalla meihin yhteyttä, niin katsomme, voimmeko järjestää sen.</p>
+    <div class="Infobox">
+        <div class="toiminta">
+            <h2>Toiminta</h2>
+            <p>Taipaleen leirintäkeskuksessa on monenlaista toimintaa ympäri vuoden</p>
+            <h2>Esiintyjät</h2>
+            <p>Leirintäkeskuksen pääsalissa on useina kesäiltoina erilaisia muusiikki- tai tanssiesityksiä sekä ajoittain myös standup komiikkaa</p>
+            <p>Katso kesän 2024 esiintyjät <a href="#" id="button" onclick="esiintyjät()">tästä.</a></p>
+            <p id="Esiintyjät"></p>
+            <h2>Venevuokraus</h2>
+            <p>Soutuveneitä voi vuokrata päärakennukselta kesäkaudella hintaan 5 € tunti. Maksimiaika vuokraukselle on kuusi tuntia.</p>
+            <h2>Kylpyläosasto</h2>
+            <p>Leirintäkeskuksen kylpyläosasto on auki vuoden ympäri. Kesällä käytössä on myäs ulkoallas. Kylpyosastolla on syvä uima-allas, kaksi poreallasta sekä yksi lasten allas liukumökineen. Saunaosastolla on tavallinen sauna sekä höyrysauna. Hinta aikuiselta 12€, opiskelijalta tai eläkeläiseltä 10€ ja kouluikäiseltä lapselta 6€. Alle kouluikäiset uivat ilmaiseksi.</p>
+            <h2>Opastetut luontoretket</h2>
+            <p>Kesäaikaan joka lauantai on tarjolla opastettu luontoretki, jolle lähdetään kello 13 päärakennyukselta. Reitti ei ole esteetön. Ei vaadi kovaa kuntoa. Hintaan sisältyy pienet eväät. Kesto noin kolme tuntia. Hinta 15€ aikuiselta, 12€ opiskelijalta tai eläkeläiseltä ja 8€ kouluikäiseltä lapselta. Alle kouluikäiset pääsevät mukaan ilmaiseksi</p>
+            <p>Voitte myös ehdottaa toimintaa ottamalla meihin yhteyttä, niin katsomme, voimmeko järjestää sen.</p>
+        </div>
     </div>
     <div class=""></div>
 </body>

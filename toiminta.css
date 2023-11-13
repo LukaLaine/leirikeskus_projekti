@@ -1,0 +1,8 @@
+div.Infobox{
+    display: flex;
+    justify-content: center;
+}
+.toiminta{
+    width: 700px;
+    height: 900px;
+}

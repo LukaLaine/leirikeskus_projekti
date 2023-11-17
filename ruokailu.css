@@ -3,9 +3,11 @@ body{
 
 }
 header{
-    background-color:seagreen;
     display: flex;
     justify-content: center;
+    margin: 0;
+    background-color:#B3C972 ;
+    height: 114px;
 }
 h1{
     font-size: 60px;
@@ -17,4 +19,37 @@ div.infobox{
 div.ruokailut{
     background-color: seagreen;
     text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 1200px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #C4DC7E;
+    height: 67px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    width: 160px;
+}
+li.nykysivu{
+    height: 79px;
+    width: 140px;
+}
+a{
+    color: #709A74;
 }

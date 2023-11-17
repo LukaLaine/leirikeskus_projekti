@@ -13,6 +13,43 @@ div.container{
     width: 1382px;
     background-color:#D5EF8C ;
 }
+
+div.Infobox{
+    display: flex;
+    justify-content: center;
+}
+.toiminta{
+    margin: 1em;
+    padding: 5em;
+    background-color: #C4DC7E;
+    width: 100px;
+    height: auto;
+    margin-bottom: 0;
+
+}
+footer{
+    background-color:#B3C972;
+    margin: 0;
+    height: 52px;
+}
+h2{
+    font-size: 35px;
+    color: #709A74;
+}
+p{
+    font-size: 35px;
+    color: #709A74;
+}
+p.copyright{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color:#B3C972 ;
+    height: 114px;
+}
 section{
     display: flex;
     justify-content: center;
@@ -45,40 +82,4 @@ li.nykysivu{
 }
 a{
     color: #709A74;
-}
-div.Infobox{
-    display: flex;
-    justify-content: center;
-}
-.toiminta{
-    margin: 1em;
-    padding: 5em;
-    background-color: #C4DC7E;
-    width: 1000px;
-    height: auto;
-    margin-bottom: 0;
-
-}
-header{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    background-color:#B3C972 ;
-    height: 114px;
-}
-footer{
-    background-color:#B3C972;
-    margin: 0;
-    height: 52px;
-}
-h2{
-    font-size: 35px;
-    color: #709A74;
-}
-p{
-    font-size: 35px;
-    color: #709A74;
-}
-p.copyright{
-    margin: 0;
 }

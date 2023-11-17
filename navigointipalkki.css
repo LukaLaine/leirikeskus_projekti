@@ -1,0 +1,41 @@
+body{
+    background-attachment: fixed;
+    margin: 0;
+    background-color: burlywood;
+}
+
+#Ruutu{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(greenyellow,green);
+    touch-action: none;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+  }
+
+.ruutu{
+    opacity: 0.6;
+}
+
+#teksti {
+    transform: rotateZ(-90deg);
+  }
+
+.nappi{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    border-bottom: 5px solid green;
+    background-color: greenyellow;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-inline: 50px;
+    transition: 0.4s;
+}
+
+.nappi:hover{
+    opacity: 0.6;
+}

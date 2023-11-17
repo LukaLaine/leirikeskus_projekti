@@ -1,6 +1,7 @@
 body{
     background-color: #B6D580;
     background-attachment: fixed;
+    margin: 0;
 }
 #Ruutu{
     height: 150px;
@@ -41,11 +42,11 @@ body{
     background-color:#D5EF8C;
     width: 1382px;
     margin-inline: auto;
-    height: 1200px;
+    height: 1100px;
 }
 .container{
     width: 1108px;
-    height: 1074px;
+    height: 1000px;
     background-color: #C4DC7E;
     margin: auto;
     margin-top: 40px;
@@ -67,5 +68,12 @@ body{
     font-size: 50px;
     color: #709A74;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+.picture{
+    margin-inline: auto;
 }
 

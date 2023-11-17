@@ -1,7 +1,71 @@
-.leirintakeskus_kuvat{
-    height: 400px;
-    width: 400px;
+body{
+    background-color: #B6D580;
+    background-attachment: fixed;
 }
-footer{
+#Ruutu{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(greenyellow,green);
+    touch-action: none;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+  }
+
+.ruutu{
+    opacity: 0.6;
+}
+
+#teksti {
+    transform: rotateZ(-90deg);
+  }
+
+.nappi{
+    color: white;
+    padding: 15px 32px;
     text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    border-bottom: 5px solid green;
+    background-color: greenyellow;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-inline: 50px;
+    transition: 0.4s;
 }
+
+.nappi:hover{
+    opacity: 0.6;
+}
+.buttons{
+    background-color:#D5EF8C;
+    width: 1382px;
+    margin-inline: auto;
+    height: 1200px;
+}
+.container{
+    width: 1108px;
+    height: 1074px;
+    background-color: #C4DC7E;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+    padding-inline: 20px;
+}
+.container p{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #709A74;
+}
+.footer{
+    margin-top: -60px;
+    height: 80px;
+    background-color: #B3C972;
+    width: 100%;
+}
+.footer p{
+    font-size: 50px;
+    color: #709A74;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

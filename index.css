@@ -6,13 +6,18 @@ body{
 #Ruutu{
     height: 150px;
     width: 100%;
-    background: linear-gradient(greenyellow,green);
+    max-width: 100%;
     touch-action: none;
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
 .ruutu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0.6;
+    background-color: #B3C972;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #teksti {
@@ -20,21 +25,21 @@ body{
   }
 
 .nappi{
-    color: white;
+    border: none;
+    color: #709A74;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    border-right: 5px solid green;
-    border-left: 5px solid green;
-    border-bottom: 5px solid green;
-    background-color: greenyellow;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: #C4DC7E;
     margin-inline: 50px;
     transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+.nappi1{
+    padding-bottom: 30px;
+}
 .nappi:hover{
     opacity: 0.6;
 }
@@ -43,6 +48,7 @@ body{
     width: 1382px;
     margin-inline: auto;
     height: 1100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .container{
     width: 1108px;
@@ -52,6 +58,7 @@ body{
     margin-top: 40px;
     padding: 15px;
     padding-inline: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .container p{
     font-size: 33px;
@@ -63,6 +70,7 @@ body{
     height: 80px;
     background-color: #B3C972;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .footer p{
     font-size: 50px;
@@ -75,5 +83,6 @@ body{
 }
 .picture{
     margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

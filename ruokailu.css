@@ -1,6 +1,47 @@
 body{
-    background-color:darkgreen;
+    margin-top: 0;
+    background-color: #B6D580;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}
+div.global-container{
+    display: flex;
+    justify-content: center;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    width: 1382px;
+    background-color:#D5EF8C ;
+}
 
+div.Infobox{
+    display: flex;
+    justify-content: center;
+}
+.ruokailu{
+    margin: 1em;
+    padding: 5em;
+    background-color: #C4DC7E;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 0;
+
+}
+footer{
+    background-color:#B3C972;
+    margin: 0;
+    height: 52px;
+}
+h2{
+    font-size: 35px;
+    color: #709A74;
+}
+p{
+    font-size: 35px;
+    color: #709A74;
+}
+p.copyright{
+    margin: 0;
 }
 header{
     display: flex;
@@ -8,17 +49,6 @@ header{
     margin: 0;
     background-color:#B3C972 ;
     height: 114px;
-}
-h1{
-    font-size: 60px;
-}
-div.infobox{
-    background-color: seagreen;
-    text-align: center;
-}
-div.ruokailut{
-    background-color: seagreen;
-    text-align: center;
 }
 section{
     display: flex;

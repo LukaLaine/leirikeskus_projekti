@@ -77,15 +77,3 @@ body{
     color: #709A74;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.pictures{
-    display: flex;
-    flex-direction: row;
-}
-.picture{
-    margin-inline: auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.picture{
-    margin-inline: auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}

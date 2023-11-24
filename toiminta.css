@@ -25,12 +25,18 @@ div.Infobox{
     width: 1000px;
     height: auto;
     margin-bottom: 0;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
 
 }
 footer{
     background-color:#B3C972;
     margin: 0;
     height: 52px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
 }
 h2{
     font-size: 35px;
@@ -49,6 +55,9 @@ header{
     margin: 0;
     background-color:#B3C972 ;
     height: 114px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
 }
 section{
     display: flex;
@@ -73,7 +82,7 @@ li{
     height: 67px;
     border-style: solid;
     border-color: gray;
-    border-width: 2px;
+    border-width: 1px;
     width: 160px;
 }
 li.nykysivu{
@@ -82,4 +91,13 @@ li.nykysivu{
 }
 a{
     color: #709A74;
+}
+.kuvat{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.kuva{
+    width: 400px;
+    height: 400px;
 }

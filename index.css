@@ -1,0 +1,87 @@
+body{
+    background-color: #B6D580;
+    background-attachment: fixed;
+    margin: 0;
+}
+#Ruutu{
+    height: 150px;
+    width: 100%;
+    max-width: 100%;
+    touch-action: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+.ruutu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    background-color: #B3C972;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#teksti {
+    transform: rotateZ(-90deg);
+  }
+
+.nappi{
+    border: none;
+    color: #709A74;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #C4DC7E;
+    margin-inline: 50px;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nappi1{
+    padding-bottom: 30px;
+}
+.nappi:hover{
+    opacity: 0.6;
+}
+.buttons{
+    background-color:#D5EF8C;
+    width: 1382px;
+    margin-inline: auto;
+    height: 1100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container{
+    width: 1108px;
+    height: 1000px;
+    background-color: #C4DC7E;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+    padding-inline: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container p{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #709A74;
+}
+.footer{
+    margin-top: -60px;
+    height: 80px;
+    background-color: #B3C972;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer p{
+    font-size: 50px;
+    color: #709A74;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+.picture{
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
